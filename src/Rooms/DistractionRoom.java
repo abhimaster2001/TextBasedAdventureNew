@@ -24,7 +24,7 @@ public class DistractionRoom extends Room
 		roomNumber = /*num roms*/
 		
 		questions[0] = "Whats crakin";
-		answers[0]0 = "nah dawg";
+		answers[0] = "nah dawg";
     }
 	
 	
