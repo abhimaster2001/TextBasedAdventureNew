@@ -3,8 +3,8 @@ package Item;
 public class TimeExtender extends Item{
 	
 	
-	public TimeExtender(int xLoc, int yLoc){
-		super("TimeExtender", int xLoc, int yLoc);
+	public TimeExtender(int xcon, int ycon){
+		super("TimeExtender", int xcon, int ycon);
 	}
 	
 	public boolean checkPerson(int personX, int personY){
@@ -13,8 +13,3 @@ public class TimeExtender extends Item{
 		}return false;
 	}
 }
-//
-//public Item
-//}
-//System.out.println
-//}
