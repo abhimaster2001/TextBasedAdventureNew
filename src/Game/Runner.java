@@ -63,11 +63,20 @@ public class Runner {
 				else {
 					System.out.println("Please choose a valid move.");
 				}
+				
+				/*if(checkPerson(x,y)){
+					futureTime+=System.nanoTime() + (long) (30 * 1e9);
+				}*/
+				
 			}else{
-				//whatever is supposed to happen when game ends
+				gameOn = false;
 			}
 			
         }
+		
+		//add stuff here when game ends
+		
+		
         in.close();
     }
 
