@@ -44,8 +44,9 @@ public class DistractionRoom extends Room
         x.setyLoc(this.yLoc);
         System.out.println("Uh oh, you have entered your english class.  You have not handed in your assignment from last week and you have been spotted =O");
         Scanner engquestion = new Scanner(System.in);
-        System.out.println("What type of word is run?");
+        System.out.println(questions[roomNumber]);
         String answer = engquestion.nextLine();
+		boolean isRight = checkAnswer(answer);
     }
     @Override
     public String toString()
