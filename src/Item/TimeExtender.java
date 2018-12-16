@@ -4,7 +4,7 @@ public class TimeExtender extends Item{
 	
 	
 	public TimeExtender(int xcon, int ycon){
-		super("TimeExtender", int xcon, int ycon);
+		super("TimeExtender", xcon, ycon);
 	}
 	
 	public boolean checkPerson(int personX, int personY){
